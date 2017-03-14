@@ -21,12 +21,17 @@ var myName = 'Adam';
  * it should take a 1 parameter, `name`
  * and it should print "Hello, my name is {name}"
  */
+ function greet (name){
+ 	console.log( "Hello, my name is " + name);
+ }
+greet('Adam');
 
-/* Create an array called `dataTypes` with atleast 1 of every data type;
+ /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
-
+ var dataTypes = [1, null, undefined, 'string', true, ['']];
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
