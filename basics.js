@@ -12,7 +12,10 @@ var myName = 'Adam';
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
- 
+ var canDrive = false;
+ if (person.age >= 16){
+ 	canDrive = true;
+ }
 
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`
